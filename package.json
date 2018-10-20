@@ -1,0 +1,145 @@
+{
+  "name": "AbsoluteHack",
+  "version": "1.0",
+  "description": "A global hackathon uniting thousands of ignited minds",
+  "keywords": ["AbsoluteHack","hackathon","techtalks"],
+  "homepage": "https://github.com/dmnsgn/frontend-boilerplate",
+  "bugs": {
+    "url": "https://github.com/GlobalTechTalks/hackathon/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GlobalTechTalks/hackathon"
+  },
+  "scripts": {
+    "favicons": "node -r esm ./config/scripts/favicons.js",
+    "sitemap": "node -r esm ./config/scripts/sitemap.js",
+    "robotstxt": "node -r esm ./config/scripts/robotstxt.js",
+    "clean": "node -r esm ./config/scripts/clean.js",
+    "dev:webpack": "cross-env NODE_ENV=development webpack-dev-server -r esm --config=config/index.js",
+    "prod:webpack": "cross-env NODE_ENV=production webpack -r esm --config=config/index.js",
+    "dev": "run-p favicons dev:*",
+    "prod": "run-s clean favicons prod:* && run-p sitemap robotstxt",
+    "start": "npm run dev",
+    "build": "npm run prod"
+  },
+  "config": {
+    "title": "AbsoluteHack",
+    "url": "",
+    "lang": "en",
+    "description": "A global hackathon uniting thousands of ignited minds",
+    "copyright": "MIT",
+    "handle": "",
+    "analyticsUA": "UA-XXXXX-X"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-typescript": "^7.0.0",
+    "autoprefixer": "^9.1.5",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "chalk": "^2.4.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "del": "^3.0.0",
+    "ejs-loader": "^0.3.1",
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "esm": "^3.0.82",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "favicons": "^5.1.1",
+    "file-loader": "^2.0.0",
+    "generate-robotstxt": "^5.0.7",
+    "git-rev-sync": "^1.12.0",
+    "glslify-loader": "^1.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.3.1",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.9.3",
+    "npm-install-webpack-plugin": "^4.0.5",
+    "npm-run-all": "^4.1.3",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.0",
+    "postcss-load-config": "^2.0.0",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.14.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.1.0",
+    "sitemap": "^2.0.1",
+    "style-loader": "^0.23.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "svg-sprite-loader": "^3.9.2",
+    "svgo": "^1.0.5",
+    "svgo-loader": "^2.2.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8",
+    "webpack-spritesmith": "^0.5.2",
+    "webpack-stats-plugin": "^0.2.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    },
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": false
+      }
+    }
+  },
+  "eslintIgnore": [
+    "node_modules"
+  ],
+  "esm": {
+    "cache": false
+  }
+}
