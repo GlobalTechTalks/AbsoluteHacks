@@ -90,3 +90,4 @@ npm run prod
 # Contributors
 * [Utkarsh Gupta](https://github.com/utkarsh2102)
 * [Animesh Verma](https://github.com/AniVerma17)
+* [Rishabh Bansal](https://github.com/rb007123)
