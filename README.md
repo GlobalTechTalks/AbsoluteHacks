@@ -22,7 +22,7 @@ This consists of two parts:
 
 * Backend:
     - Django
-    - MySQL
+    - PostgreSQL
 
 # Contributing to AbsoluteHack
 
