@@ -57,7 +57,6 @@ npm run prod
 ```
 
 
->>>>>>> 077007e17e7e838f2040d24acf0b0165ced37bf4
 ## Submitting Issues
 
 * Before creating a new issue, perform a [cursory search](https://github.com/GlobalTechTalks/hackathon/issues?utf8=%E2%9C%93&q=) in the main repo to see if a similar issue has already been submitted.
@@ -93,4 +92,5 @@ npm run prod
 
 # Contributors
 * [Utkarsh Gupta](https://github.com/utkarsh2102)
-* [Animesh Verma](https://github.com/AniVerma17)* [Rishabh Bansal](https://github.com/rb007123)
+* [Animesh Verma](https://github.com/AniVerma17)
+* [Rishabh Bansal](https://github.com/rb007123)
