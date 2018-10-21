@@ -22,17 +22,37 @@ This consists of two parts:
 
 * Backend:
     - Django
+
     - PostgreSQL
 
 # Contributing to AbsoluteHack
 
 ## General Guidelines
 
+
 * Add assets such as images and other media in assets folder.
 * Follow standard coding practices, naming conventions and the regular document object model (DOM).
 * Make issues on GitHub to propose new features, bugs and then make a PR referencing the same.
 * Make sure you update your REMOTE ORIGIN in case you have forked this repo : [Refer](https://help.github.com/articles/syncing-a-fork/).
 * Once you update the forked repo make sure you rebase the changes and then open the PR. [Refer](http://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository).
+
+### Requirements
+
+* Node >= 6.0.0
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Build
+
+```bash
+npm run prod
+// or npm run build
+```
+
 
 ## Submitting Issues
 
@@ -69,3 +89,4 @@ This consists of two parts:
 
 # Contributors
 * [Utkarsh Gupta](https://github.com/utkarsh2102)
+* [Animesh Verma](https://github.com/AniVerma17)
