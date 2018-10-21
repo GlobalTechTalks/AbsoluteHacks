@@ -22,13 +22,15 @@ This consists of two parts:
 
 * Backend:
     - Django
-    - MySQL
+
+    - PostgreSQL
 
 # Contributing to AbsoluteHack
 
 ## General Guidelines
 
-* Add assets such as images and other media in src/assets folder.
+
+* Add assets such as images and other media in assets folder.
 * Follow standard coding practices, naming conventions and the regular document object model (DOM).
 * Make issues on GitHub to propose new features, bugs and then make a PR referencing the same.
 * Make sure you update your REMOTE ORIGIN in case you have forked this repo : [Refer](https://help.github.com/articles/syncing-a-fork/).
@@ -50,6 +52,7 @@ npm install
 npm run prod
 // or npm run build
 ```
+
 
 ## Submitting Issues
 
