@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "AbsoluteHack",
+  "description": "A global hackathon uniting thousands of ignited minds",
+  "icons": {
+    "60": "images/favicon/firefox_app_60x60.png",
+    "128": "images/favicon/firefox_app_128x128.png",
+    "512": "images/favicon/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "",
+    "url": ""
+  }
+}

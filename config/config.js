@@ -6,8 +6,8 @@ const NODE_ENV = process.env.NODE_ENV;
 const ROOT = process.env.PWD;
 const PATHS = new Map()
   .set("config", "config")
-  .set("src", "src")
-  .set("dist", "dist")
+  .set("src", "src/AbsoluteHack")
+  .set("dist", "src/AbsoluteHack/templates")
   .set("test", "test");
 
 const PACKAGE = JSON.parse(
