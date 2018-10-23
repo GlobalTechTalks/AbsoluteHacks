@@ -1,71 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= htmlWebpackPlugin.options.lang %>">
 
 <head>
 
-	<title>Contact Us</title>
+	<title>Contact Us |
+		<%= htmlWebpackPlugin.options.title %>
+	</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-	<link rel="icon" type="image/png" href="../assets/images/favicon.ico" />
 
 	<link rel="stylesheet" href="../styles/bootstrap.min.css">
-
 	<link rel="stylesheet" href="../styles/font-awesome.min.css">
-
 	<link rel="stylesheet" href="../styles/main.css">
+
+	<%= require('./_meta.ejs')({ data: htmlWebpackPlugin.options }) %>
+	<%= require('./_favicons.ejs')() %>
 
 </head>
 
 <body class="bg">
 
-	<div class="container-fluid">
-		<div class="row mx-md-5 my-md-5 pb-md-4 mx-2 my-1 pb-3" id="card">
-			<div class="col-md-6 align-self-center text-center">
-				<img src="../assets/images/envelope.svg" class="img-fluid mt-md-3 pt-4" width="85%" alt="contact us">
-			</div>
-			<div class="col-md-6">
-				<div class="row justify-content-around">
-					<div class="col pt-4 pl-3 ml-lg-5 pl-lg-5 mx-sm-5 px-sm-5 align-center main">
-						<h2 class="pl-4 txt">Contact Us</h2>
-						<form action="">
-							<div id="input_container">
-								<input id="input" type="text" placeholder="Full Name">
-								<i class="fas fa-user fa-sm" id="input-img"></i>
-							</div>
-							<div id="input_container">
-								<input id="input" type="text" placeholder=Email>
-								<i class="fa fa-envelope fa-sm" id="input-img"></i>
-							</div>
-							<textarea cols="28" rows="5" placeholder="Message..." id=></textarea>
-							<button id="submit" class="hvr-icon-forward">
-								Submit <i class="fa fa-arrow-right fa-sm hvr-icon" id="next"></i>
-							</button>
-						</form>
-						<span class="text-center txt" style="display:inline-block; width:18rem;"> Or </span>
-					</div>
+	<%= require('./_browserhappy.ejs')() %>
+
+	<main>
+		<div class="container-fluid">
+			<div class="row mx-md-5 my-md-5 pb-md-4 mx-2 my-1 pb-3" id="card">
+				<div class="col-md-6 align-self-center text-center">
+					<img src="../assets/images/envelope.svg" class="img-fluid mt-md-3 pt-4" width="85%" alt="contact us">
 				</div>
-				<div class="row pt-3 pl-sm-3 pl-5 ml-lg-5 pl-lg-5 social_icons">
-					<div class="col-2 col-sm-1 pr-sm-5 mr-sm-2 mr-3">
-						<div class="circle facebook hvr-icon-push">
-							<i class="fab fa-facebook-f hvr-icon"></i>
+				<div class="col-md-6">
+					<div class="row justify-content-around">
+						<div class="col pt-4 pl-3 ml-lg-5 pl-lg-5 mx-sm-5 px-sm-5 align-center main">
+							<h2 class="pl-4 txt">Contact Us</h2>
+							<form action="">
+								<div id="input_container">
+									<input id="input" type="text" placeholder="Full Name">
+									<i class="fas fa-user fa-sm" id="input-img"></i>
+								</div>
+								<div id="input_container">
+									<input id="input" type="text" placeholder=Email>
+									<i class="fa fa-envelope fa-sm" id="input-img"></i>
+								</div>
+								<textarea cols="28" rows="5" placeholder="Message..." id=></textarea>
+								<button id="submit" class="hvr-icon-forward">
+									Submit <i class="fa fa-arrow-right fa-sm hvr-icon" id="next"></i>
+								</button>
+							</form>
+							<span class="text-center txt" style="display:inline-block; width:18rem;"> Or </span>
 						</div>
 					</div>
-					<div class="col-2 col-sm-1 ml-sm-2 pr-sm-5 mr-3">
-						<div class="circle twitter hvr-icon-push">
-							<i class="fab fa-twitter hvr-icon"></i>
+					<div class="row pt-3 pl-sm-3 pl-5 ml-lg-5 pl-lg-5 social_icons">
+						<div class="col-2 col-sm-1 pr-sm-5 mr-sm-2 mr-3">
+							<div class="circle facebook hvr-icon-push">
+								<i class="fab fa-facebook-f hvr-icon"></i>
+							</div>
 						</div>
-					</div>
-					<div class="col-2">
-						<div class="circle telegram hvr-icon-push">
-							<i class="fab fa-telegram-plane hvr-icon"></i>
+						<div class="col-2 col-sm-1 ml-sm-2 pr-sm-5 mr-3">
+							<div class="circle twitter hvr-icon-push">
+								<i class="fab fa-twitter hvr-icon"></i>
+							</div>
+						</div>
+						<div class="col-2">
+							<div class="circle telegram hvr-icon-push">
+								<i class="fab fa-telegram-plane hvr-icon"></i>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</main>
 
+	<%= require('./_analytics.ejs')({ data: htmlWebpackPlugin.options }) %>
 </body>
 
 </html>
