@@ -6,7 +6,7 @@ export default {
   // bonjour: true,
   clientLogLevel: "info",
   compress: true,
-  contentBase: PATHS.get("dist"),
+  contentBase: PATHS.get("src/AbsoluteHack/templates"),
   disableHostCheck: true,
   // filename: "bundle.js",
   // headers: {
