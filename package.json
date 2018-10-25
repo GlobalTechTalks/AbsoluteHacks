@@ -4,6 +4,12 @@
   "version": "1.0",
   "description": "A global hackathon uniting thousands of ignited minds",
   "keywords": ["AbsoluteHack","hackathon","techtalks"],
+  "description": "A global hackathon uniting thousands of ignited minds",
+  "keywords": [
+    "AbsoluteHack",
+    "hackathon",
+    "techtalks"
+  ],
   "homepage": "",
   "bugs": {
     "url": "https://github.com/GlobalTechTalks/hackathon/issues"

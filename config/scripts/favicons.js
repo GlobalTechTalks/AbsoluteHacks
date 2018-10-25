@@ -7,6 +7,7 @@ import chalk from "chalk";
 import { NODE_ENV, ROOT, PATHS, PACKAGE, GIT_INFO } from "../config";
 
 const source = path.join(ROOT, PATHS.get("src"), "/assets/favicon.png");
+const source = path.join(ROOT, PATHS.get("src"), "/static/assets/favicon.png");
 const faviconPath = "images/favicon/";
 const destination = path.join(ROOT, PATHS.get("dist"), faviconPath);
 
@@ -76,6 +77,7 @@ const callback = (error, response) => {
   if (response.html) {
     fs.writeFileSync(
       `${PATHS.get("src")}/templates/_favicons.ejs`,
+      `${PATHS.get("src")}/ejsfiles/AbsoluteHackInit/_favicons.ejs`,
       response.html.join("\n")
     );
     console.log(chalk.green("Favicons template generated."));

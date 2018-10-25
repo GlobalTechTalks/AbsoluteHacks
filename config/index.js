@@ -39,6 +39,7 @@ export default {
     alias: {
       Utils: path.join(ROOT, PATHS.get("src"), "utils/"),
       Templates: path.join(ROOT, PATHS.get("src"), "templates/")
+      Templates: path.join(ROOT, PATHS.get("src"), "ejsfiles/AbsoluteHackInit/")
     },
     aliasFields: ["browser"],
     descriptionFiles: ["package.json"],

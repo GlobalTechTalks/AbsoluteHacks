@@ -68,6 +68,7 @@ const htmlIndex = new HtmlWebpackPlugin({
   inject: true,
   filename: "index.html",
   template: "templates/index.html",
+  template: "ejsfiles/AbsoluteHackInit/index.html",
   minify: NODE_ENV === "development" ? false : minifyOptions,
   ...templateData
 });
