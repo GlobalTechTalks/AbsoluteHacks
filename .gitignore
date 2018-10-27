@@ -9,3 +9,5 @@ src/assets/sprite.scss
 src/assets/sprite.less
 src/assets/sprite.styl
 src/assets/sprite@2x.png
+db.sqlite3
+__pycache__
