@@ -1,0 +1,27 @@
+[PYTHON]
+files = **.py
+bears = PEP8Bear
+
+default_actions = PEP8Bear: ApplyPatchAction
+
+[CSS]
+bears = CSSLintBear
+files = **.css
+
+[JSON]
+files = **.json
+bears = JSONFormatBear
+json_sort = false
+indent_size = 2
+
+[Markdown]
+files = **.md
+bears = MarkdownBear, AlexBear
+
+[Git]
+bears = GitCommitBear
+
+[YAML]
+files = **.yml
+bears = YAMLLintBear
+ignore = **.yml
