@@ -1,1 +1,0 @@
-This App is for the index.html and the login and registration forms.
