@@ -1,0 +1,15 @@
+extends 'base.html'
+
+{% block content %}
+    <nav>
+        <ul>
+            <li>
+                <a href="{% url 'accounts:login' %}">Log In</a>
+            </li>
+            <li>
+                <a href="{% url 'accounts:signup' %}">Sign Up</a>
+            </li>
+        </ul>
+    </nav>
+
+{% endblock %}
