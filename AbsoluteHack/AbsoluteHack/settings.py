@@ -31,7 +31,7 @@ TEMPLATE_DEBUG = DEBUG
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'mo^xb3e4ztctxr5je(tsvgejr*d(vftm5l5q!#7k^ag6_i_7%q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
@@ -87,11 +87,11 @@ WSGI_APPLICATION = 'AbsoluteHack.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': env('DATABASE_NAME'),
-        'USER': env('DATABASE_USER'),
-        'PASSWORD': env('DATABASE_PASS'),
-        'HOST': env('DATABASE_HOST'),
-        'PORT': env('DATABASE_PORT') ,
+        'NAME': 'legaldox',
+        'USER': 'postgres',
+        'PASSWORD': 'eagle.111',
+        'HOST': 'localhost',
+        'PORT': '5432' ,
     }
 }
 
@@ -138,5 +138,5 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'staticfiles'),
 )
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/assets/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'assets')
