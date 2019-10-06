@@ -85,10 +85,10 @@ npm run prod
 
 # Working Repo/Site
 * Repo : https://github.com/GlobalTechTalks/hackathon
-* Site : https://utkarsh2102.github.io/hackathon
+* Site : ...coming soon
 
 # Contributors
-* [Udit Gupta] (https://github.com/uditwapt)
-* [Tanmay Mohan] (https://github.com/tanmaymohan)
+* [Udit Gupta](https://github.com/uditwapt)
+* [Tanmay Mohan](https://github.com/tanmaymohan)
 * [Utkarsh Gupta](https://github.com/utkarsh2102)
 * [Animesh Verma](https://github.com/AniVerma17)
