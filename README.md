@@ -84,7 +84,7 @@ npm run prod
 
 
 # Working Repo/Site
-* Repo : https://github.com/GlobalTechTalks/hackathon
+* Repo : https://github.com/GlobalTechTalks/AbsoluteHacks/ 
 * Site : ...coming soon
 
 # Contributors
