@@ -36,8 +36,8 @@ This consists of two parts:
 
 ## Submitting Issues
 
-* Before creating a new issue, perform a [cursory search](https://github.com/GlobalTechTalks/hackathon/issues?utf8=%E2%9C%93&q=) in the main repo to see if a similar issue has already been submitted.
-* You can create an issue [here](https://github.com/GlobalTechTalks/hackathon/issues/new). Please include as many details as possible in your report.
+* Before creating a new issue, perform a [cursory search](https://github.com/GlobalTechTalks/AbsoluteHacks/issues?utf8=%E2%9C%93&q=) in the main repo to see if a similar issue has already been submitted.
+* You can create an issue [here](https://github.com/GlobalTechTalks/AbsoluteHacks/issues/new). Please include as many details as possible in your report.
 * Issue titles should be descriptive, explaining at the high level what it is about.
 * Please include the version of the dependencies you are using, as well as what operating system you are having a problem on.
 * _Do not open a [pull request](#pull-requests) to resolve an issue without first receiving feedback from a `collaborator` or `owner` and having them agree on a solution forward_.
@@ -64,8 +64,10 @@ This consists of two parts:
 
 
 # Working Repo/Site
-* Repo : https://github.com/GlobalTechTalks/hackathon
-* Site : https://utkarsh2102.github.io/hackathon
+* Repo : https://github.com/GlobalTechTalks/AbsoluteHacks/ 
+* Site : ...coming soon
 
 # Contributors
+* [Udit Gupta](https://github.com/uditwapt)
+* [Tanmay Mohan](https://github.com/tanmaymohan)
 * [Utkarsh Gupta](https://github.com/utkarsh2102)
