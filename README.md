@@ -22,7 +22,8 @@ This consists of two parts:
 
 * Backend:
     - Django
-    - PostgreSQL
+    - Elastic Search (For Real Time data)
+    - PostgreSQL (for Archive Data)
 
 # Contributing to AbsoluteHack
 
