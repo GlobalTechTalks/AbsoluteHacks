@@ -63,7 +63,7 @@ Please read the guidelines here before contributing to this project.
 ---
 ## License
 
-[License](LICENSE.md)
+[License](LICENSE)
 
 # Working Repo/Site
 * Repo : https://github.com/GlobalTechTalks/AbsoluteHacks
