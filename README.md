@@ -6,8 +6,6 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/GlobalTechTalks/AbsoluteHacks.svg)](https://github.com/GlobalTechTalks/AbsoluteHacks/graphs/contributors)
 
 # AbsoluteHacks
-
-## Why AbsoluteHacks?
 AbsoluteHack is a global hackathon uniting thousands of ignited minds. It is initiated by TechTalks for organizing hackathons in Pan India.
 In the context of a hackathon, the word "hack" is used to describe how multiple technologies can be used together in a new and innovative way. Hence, AbsoluteHack provides an amazing atmosphere to put in all you've got and bring your ideas to fruition.
 ---
@@ -42,10 +40,16 @@ We are trying to build a one-stop solution for the same. You just need to regist
 
 ## Contact us
 
-[Slack]https://globaltechtalks.slack.com/
 [Telegram]https://t.me/globaltechtalks
-[facebook]https://www.facebook.com/GlobalTechTalks/
-[Twitter]https://twitter.com/globaltechtalks
+[Slack]  https://globaltechtalks.slack.com/
+
+
+---
+
+## Social Media 
+
+[Facebook] https://www.facebook.com/GlobalTechTalks/
+[Twitter]  https://twitter.com/globaltechtalks
 
 
 ---
@@ -63,7 +67,7 @@ Please read the guidelines here before contributing to this project.
 ---
 ## License
 
-[License](LICENSE)
+[MIT](LICENSE)
 
 # Working Repo/Site
 * Repo : https://github.com/GlobalTechTalks/AbsoluteHacks
