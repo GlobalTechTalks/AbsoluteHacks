@@ -40,16 +40,16 @@ We are trying to build a one-stop solution for the same. You just need to regist
 
 ## Contact us
 
-[Telegram]https://t.me/globaltechtalks
-[Slack]  https://globaltechtalks.slack.com/
+* [Telegram](https://t.me/globaltechtalks)
+* [Slack](https://globaltechtalks.slack.com/)
 
 
 ---
 
 ## Social Media 
 
-[Facebook] https://www.facebook.com/GlobalTechTalks/
-[Twitter]  https://twitter.com/globaltechtalks
+* [Facebook](https://www.facebook.com/GlobalTechTalks/)
+* [Twitter](https://twitter.com/globaltechtalks)
 
 
 ---
