@@ -1,71 +1,81 @@
-[![GitHub issues](https://img.shields.io/github/issues/GlobalTechTalks/hackathon.svg)](https://github.com/GlobalTechTalks/hackathon/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/GlobalTechTalks/hackathon.svg)](https://github.com/GlobalTechTalks/hackathon/pulls)
-[![GitHub forks](https://img.shields.io/github/forks/GlobalTechTalks/hackathon.svg?style=social&label=Fork)](https://github.com/GlobalTechTalks/hackathon/network)
-[![GitHub stars](https://img.shields.io/github/stars/GlobalTechTalks/hackathon.svg?style=social&label=Stars)](https://github.com/GlobalTechTalks/hackathon/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/GlobalTechTalks/hackathon.svg?style=social&label=Watch)](https://github.com/GlobalTechTalks/hackathon/watchers)
-[![GitHub contributors](https://img.shields.io/github/contributors/GlobalTechTalks/hackathon.svg)](https://github.com/GlobalTechTalks/hackathon/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/GlobalTechTalks/AbsoluteHacks.svg)](https://github.com/GlobalTechTalks/AbsoluteHacks/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/GlobalTechTalks/AbsoluteHacks.svg)](https://github.com/GlobalTechTalks/AbsoluteHacks/pulls)
+[![GitHub forks](https://img.shields.io/github/forks/GlobalTechTalks/AbsoluteHacks.svg?style=social&label=Fork)](https://github.com/GlobalTechTalks/AbsoluteHacks/network)
+[![GitHub stars](https://img.shields.io/github/stars/GlobalTechTalks/AbsoluteHacks.svg?style=social&label=Stars)](https://github.com/GlobalTechTalks/AbsoluteHacks/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/GlobalTechTalks/AbsoluteHacks.svg?style=social&label=Watch)](https://github.com/GlobalTechTalks/AbsoluteHacks/watchers)
+[![GitHub contributors](https://img.shields.io/github/contributors/GlobalTechTalks/AbsoluteHacks.svg)](https://github.com/GlobalTechTalks/AbsoluteHacks/graphs/contributors)
 
-# AbsoluteHack
-AbsoluteHack is a global hackathon uniting thousands of ignited minds. It is initiated by TechTalks for organizing hackathon in Pan India.  
+# AbsoluteHacks
+AbsoluteHack is a global hackathon uniting thousands of ignited minds. It is initiated by TechTalks for organizing hackathons in Pan India.
 In the context of a hackathon, the word "hack" is used to describe how multiple technologies can be used together in a new and innovative way. Hence, AbsoluteHack provides an amazing atmosphere to put in all you've got and bring your ideas to fruition.
+---
+## Index
 
-# Technology Used
-This consists of two parts:
-* FrontEnd:
-    - HTML
-    - Sass
-    - EJS
-    - Bootstrap
-    - JavaScript
-    - Node as build system
+Coming Soon
 
+---
 
-* Backend:
-    - Django
-    - PostgreSQL
+## What are we aiming for?
 
-# Contributing to AbsoluteHack
+It is being created to ease the process of organizing and managing a hackathon. Today's tech industry requires everyone to be updated about everything but the college curriculum of institutions in India is way behind what's required in the industry. So hackathons are a way to tap the young minds of Indian students, in which they work on new challenges design prototypes and innovate something new which might become the next generation tech in the future. We aim to bring about a culture change in the academic industry where every CS student can create something valuable and big.
 
-## General Guidelines
-
-* Add assets such as images and other media in assets folder.
-* Follow standard coding practices, naming conventions and the regular document object model (DOM).
-* Make issues on GitHub to propose new features, bugs and then make a PR referencing the same.
-* Make sure you update your REMOTE ORIGIN in case you have forked this repo : [Refer](https://help.github.com/articles/syncing-a-fork/).
-* Once you update the forked repo make sure you rebase the changes and then open the PR. [Refer](http://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository).
-
-## Submitting Issues
-
-* Before creating a new issue, perform a [cursory search](https://github.com/GlobalTechTalks/hackathon/issues?utf8=%E2%9C%93&q=) in the main repo to see if a similar issue has already been submitted.
-* You can create an issue [here](https://github.com/GlobalTechTalks/hackathon/issues/new). Please include as many details as possible in your report.
-* Issue titles should be descriptive, explaining at the high level what it is about.
-* Please include the version of the dependencies you are using, as well as what operating system you are having a problem on.
-* _Do not open a [pull request](#pull-requests) to resolve an issue without first receiving feedback from a `collaborator` or `owner` and having them agree on a solution forward_.
-* Include screenshots and animated GIFs whenever possible; they are immensely helpful.
+---
 
 
-## Pull Requests
+## Why AbsoluteHacks?
 
-* **DO NOT ISSUE A PULL REQUEST WITHOUT FIRST [SUBMITTING AN ISSUE](#submitting-issues).**
-* It is now mandatory for everyone to comment on every PR made and read other people's code.
-* Pull requests should reference their related issues. If the pull request closes an issue, [please reference its closing in your commit messages](https://help.github.com/articles/closing-issues-via-commit-messages/). Pull requests not referencing any issues will be closed.
-* Pull request titles should be descriptive, explaining at the high level what it is doing, and should be written in the same style as [git commit messages](#git-commit-messages).
-* Every PR should only have one logical change and the least number of commits possible (if for some reasons the commits are higher then the creator of the PR would be asked to squash them.) If he/she doesn't comply, then the PR shall not be merged.     
-[Refer this](https://makandracards.com/makandra/527-squash-several-git-commits-into-a-single-commit
-), in case there are multiple commits.
-* Do not squash or rebase your commits (with multiple logical changes) when submitting a Pull Request. It makes it much harder to follow your work and make incremental changes.
-* **We accept PRs only on `develop` branch. No PRs shall be accepted on `master` branch.**
+This platform is being created to ease the process of organizing and managing a hackathon. In normal scenarios, an organizer of a hackathon needs to perform several tasks such as:-
 
-## Git Commit Messages
+Setting up a placeholder website
+Registration Pages
+Mentors
+RSVP system
+Notifications
+Sponsors 
+..etc
 
-* Use the present tense (`Add feature` not `Added Feature`).
-* Use the imperative mood (`Move cursor to...` not `Moves cursor to...`).
-* Limit the first line to 72 characters or less.
+We are trying to build a one-stop solution for the same. You just need to register your hackathon on the portal and the rest of the work is handled by the portal itself.
 
+---
+
+## Contact us
+
+* [Telegram](https://t.me/globaltechtalks)
+* [Slack](https://globaltechtalks.slack.com/)
+
+
+---
+
+## Social Media 
+
+* [Facebook](https://www.facebook.com/GlobalTechTalks/)
+* [Twitter](https://twitter.com/globaltechtalks)
+
+
+---
+## More to come...
+
+Suggestions / Issues / Feature enhancements are welcome. Please create a new issue for the same.
+
+---
+## How to contribute
+
+Please read the guidelines here before contributing to this project.
+
+[Contributing](contributions.md)
+
+---
+## License
+
+[MIT](LICENSE)
 
 # Working Repo/Site
-* Repo : https://github.com/GlobalTechTalks/hackathon
-* Site : https://utkarsh2102.github.io/hackathon
+* Repo : https://github.com/GlobalTechTalks/AbsoluteHacks
+* Site : Coming soon
 
 # Contributors
-* [Utkarsh Gupta](https://github.com/utkarsh2102)
+* [Udit Gupta](https://github.com/uditwapt)
+* [Tanmay Mohan](https://github.com/tanmaymohan)
+* [Anandesh Sharma](https://github.com/Anandesh-sharma)
+
+
